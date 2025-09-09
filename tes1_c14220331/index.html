@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="assets/icon-48x48.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Makanify</title>
+  </head>
+  <body class="bg-[#0b1e3b] text-white min-h-dvh">
+    <header class="sticky top-0 z-10 backdrop-blur supports-[backdrop-filter]:bg-[#0b1e3bcc] bg-[#0b1e3b] border-b border-white/10">
+      <div class="mx-auto max-w-3xl px-4 py-3 flex items-center justify-between">
+        <h1 class="text-xl font-semibold tracking-wide">Makanify • Resep Tinggi Protein</h1>
+        <a href="#langkah" class="text-sm underline underline-offset-4 hover:no-underline">Loncat ke langkah</a>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-3xl px-4 py-6 space-y-6">
+      <section class="space-y-3">
+        <h2 class="text-2xl md:text-3xl font-bold">Tumis Tempe Orak-Arik Telur dan Sayuran</h2>
+        <p class="text-white/80">Resep sehat, tinggi protein, murah, dan mudah dibuat. Cocok untuk makan harian tanpa ribet.</p>
+        <div class="w-full overflow-hidden rounded-xl border border-white/10 shadow-lg">
+          <img src="assets/resep.jpg" alt="Tumis Tempe Orak-Arik Telur dan Sayuran" class="w-full h-auto object-cover" />
+        </div>
+        <div class="flex flex-wrap gap-2 text-sm">
+          <span class="px-3 py-1 rounded-full bg-white/10">Estimasi Waktu: 20 menit</span>
+          <span class="px-3 py-1 rounded-full bg-white/10">Porsi: 2–3 orang</span>
+          <span class="px-3 py-1 rounded-full bg-white/10">Biaya: Rp 10.000 – 15.000</span>
+        </div>
+      </section>
+
+      <section class="space-y-3">
+        <h3 class="text-xl font-semibold">Bahan-bahan</h3>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div class="rounded-lg bg-white/5 p-4 space-y-2">
+            <h4 class="font-medium">Protein Utama</h4>
+            <ul class="list-disc list-inside text-white/90 space-y-1">
+              <li>1 papan tempe ±200 g, potong dadu kecil</li>
+              <li>2 butir telur ayam, kocok lepas</li>
+            </ul>
+          </div>
+          <div class="rounded-lg bg-white/5 p-4 space-y-2">
+            <h4 class="font-medium">Sayuran</h4>
+            <ul class="list-disc list-inside text-white/90 space-y-1">
+              <li>5 batang buncis/kacang panjang, potong 2 cm</li>
+              <li>1 wortel kecil, potong korek api/dadu</li>
+              <li>Segenggam tauge (opsional)</li>
+            </ul>
+          </div>
+          <div class="rounded-lg bg-white/5 p-4 space-y-2">
+            <h4 class="font-medium">Bumbu Iris</h4>
+            <ul class="list-disc list-inside text-white/90 space-y-1">
+              <li>3 siung bawang merah, iris tipis</li>
+              <li>2 siung bawang putih, iris/geprek cincang</li>
+              <li>2 cabai merah keriting, iris serong</li>
+              <li>1 cabai rawit (opsional), iris tipis</li>
+            </ul>
+          </div>
+          <div class="rounded-lg bg-white/5 p-4 space-y-2">
+            <h4 class="font-medium">Bumbu Saus (campur)</h4>
+            <ul class="list-disc list-inside text-white/90 space-y-1">
+              <li>1 sdm kecap manis</li>
+              <li>1 sdm saus tiram (opsional)</li>
+              <li>1/2 sdt garam</li>
+              <li>1/4 sdt merica bubuk</li>
+              <li>50 ml air</li>
+            </ul>
+          </div>
+          <div class="rounded-lg bg-white/5 p-4 space-y-2 md:col-span-2">
+            <h4 class="font-medium">Lainnya</h4>
+            <ul class="list-disc list-inside text-white/90 space-y-1">
+              <li>2 sdm minyak goreng</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="langkah" class="space-y-3">
+        <h3 class="text-xl font-semibold">Cara Membuat</h3>
+        <ol class="list-decimal list-inside space-y-2 text-white/90">
+          <li><span class="font-medium">Goreng Tempe:</span> Panaskan minyak, goreng tempe hingga setengah matang. Angkat dan tiriskan.</li>
+          <li><span class="font-medium">Tumis Bumbu:</span> Tumis bawang merah dan bawang putih hingga harum. Masukkan cabai, tumis sebentar.</li>
+          <li><span class="font-medium">Masak Telur:</span> Pinggirkan bumbu, tuang telur dan orak-arik hingga matang.</li>
+          <li><span class="font-medium">Masukkan Sayuran:</span> Masukkan wortel dan buncis, tumis 2–3 menit hingga sedikit layu.</li>
+          <li><span class="font-medium">Satukan:</span> Masukkan tempe dan tauge (jika pakai), aduk rata.</li>
+          <li><span class="font-medium">Beri Bumbu:</span> Tuang campuran saus, aduk hingga merata.</li>
+          <li><span class="font-medium">Koreksi Rasa:</span> Masak hingga bumbu meresap. Sesuaikan asin/manis sesuai selera.</li>
+          <li><span class="font-medium">Sajikan:</span> Nikmati hangat bersama nasi.</li>
+        </ol>
+      </section>
+
+      <section class="space-y-3">
+        <h3 class="text-xl font-semibold">Tips & Variasi Sehat dan Murah</h3>
+        <ul class="list-disc list-inside text-white/90 space-y-1">
+          <li>Tambah protein dengan tahu goreng.</li>
+          <li>Variasikan sayuran: kol, sawi hijau, jagung pipil.</li>
+          <li>Lebih sehat: kukus tempe 10 menit bila ingin minim minyak.</li>
+          <li>Untuk anak: hilangkan cabai agar tidak pedas.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="mx-auto max-w-3xl px-4 py-8 text-center text-white font-semibold">
+      <p>Makanify</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
