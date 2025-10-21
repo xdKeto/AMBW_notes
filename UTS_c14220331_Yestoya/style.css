@@ -1,0 +1,11 @@
+body {
+  background-color: #0A192F;
+}
+
+.card {
+  background-color: #172A45;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
